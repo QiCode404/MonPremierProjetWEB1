@@ -1,0 +1,28 @@
+{
+  "apprenants" : [
+    {
+      "id" : 1,
+      "nom" : "Doe",
+      "prenom" : "John",
+      "ville" : "Rennes",
+      "avatar" : "image.png",
+      "anecdotes" : "",
+      "coordonnees": {
+        "latitude" : "48.0389236",
+        "longitude" : "-1.6923804"
+      }
+    },
+    {
+      "id" : 2,
+      "nom" : "Doe",
+      "prenom" : "Jane",
+      "ville": "Nantes",
+      "avatar" : "",
+      "anecdotes" : "",
+      "coordonnees": {
+        "latitude" : "47.2258527",
+        "longitude" : "-1.6178441"
+      }
+    }
+  ]
+}
