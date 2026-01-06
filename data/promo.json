@@ -5,7 +5,7 @@
       "nom": "Martin",
       "prenom": "Lucas",
       "ville": "Rennes",
-      "avatar": "img/lucas.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours avec un café à la main.",
       "coordonnees": {
         "latitude": "48.117266",
@@ -29,7 +29,7 @@
       "nom": "Leroy",
       "prenom": "Thomas",
       "ville": "Niort",
-      "avatar": "img/thomas.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours le premier à aider les autres.",
       "coordonnees": {
         "latitude": "46.323716",
@@ -41,7 +41,7 @@
       "nom": "Moreau",
       "prenom": "Julie",
       "ville": "Quimper",
-      "avatar": "img/julie.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Adore JavaScript.",
       "coordonnees": {
         "latitude": "47.996090",
@@ -53,7 +53,7 @@
       "nom": "Roux",
       "prenom": "Antoine",
       "ville": "Angers",
-      "avatar": "img/antoine.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Collectionne les sneakers.",
       "coordonnees": {
         "latitude": "47.478419",
@@ -65,7 +65,7 @@
       "nom": "Fournier",
       "prenom": "Sarah",
       "ville": "La Rochelle",
-      "avatar": "img/sarah.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours souriante.",
       "coordonnees": {
         "latitude": "46.160329",
@@ -77,7 +77,7 @@
       "nom": "Girard",
       "prenom": "Hugo",
       "ville": "Rennes",
-      "avatar": "img/hugo.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Passionné de cybersécurité.",
       "coordonnees": {
         "latitude": "48.117266",
@@ -89,7 +89,7 @@
       "nom": "Gauthier",
       "prenom": "Chloé",
       "ville": "Nantes",
-      "avatar": "img/chloe.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Grande fan de React.",
       "coordonnees": {
         "latitude": "47.218371",
@@ -101,7 +101,7 @@
       "nom": "Chevalier",
       "prenom": "Maxime",
       "ville": "Niort",
-      "avatar": "img/maxime.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours en avance.",
       "coordonnees": {
         "latitude": "46.323716",
@@ -113,7 +113,7 @@
       "nom": "Lambert",
       "prenom": "Camille",
       "ville": "Quimper",
-      "avatar": "img/camille.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Adore les puzzles.",
       "coordonnees": {
         "latitude": "47.996090",
@@ -125,7 +125,7 @@
       "nom": "Bonnet",
       "prenom": "Alexandre",
       "ville": "Angers",
-      "avatar": "img/alexandre.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours motivé.",
       "coordonnees": {
         "latitude": "47.478419",
@@ -137,7 +137,7 @@
       "nom": "Francois",
       "prenom": "Léa",
       "ville": "La Rochelle",
-      "avatar": "img/lea.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Aime les jeux vidéo.",
       "coordonnees": {
         "latitude": "46.160329",
@@ -149,7 +149,7 @@
       "nom": "Henry",
       "prenom": "Paul",
       "ville": "Rennes",
-      "avatar": "img/paul.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours une blague à raconter.",
       "coordonnees": {
         "latitude": "48.117266",
@@ -161,7 +161,7 @@
       "nom": "Riviere",
       "prenom": "Manon",
       "ville": "Nantes",
-      "avatar": "img/manon.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Passionnée de photographie.",
       "coordonnees": {
         "latitude": "47.218371",
@@ -170,10 +170,10 @@
     },
     {
       "id": 15,
-      "nom": "Perrin",
+      "nom": "Narros",
       "prenom": "Swan",
       "ville": "Lausanne",
-      "avatar": "img/swan.png",
+      "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours stylé et motivé.",
       "coordonnees": {
         "latitude": "46.5196535",
