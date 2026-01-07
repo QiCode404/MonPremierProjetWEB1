@@ -22,11 +22,14 @@ fetch("data/promo.json")
         }
     });
 
-// Fonction pour afficher la liste des apprenants dans le HTML
+
+// ------------------------------
+// AFFICHAGE LISTE (TABLEAU)
+// ------------------------------
 function afficherListe(apprenants) {
     const container = document.getElementById("listeApprenants");
 
-    let html = `
+    let htmlTable = `
         <table class="table table-striped table-hover">
             <thead>
                 <tr>
@@ -40,7 +43,7 @@ function afficherListe(apprenants) {
     `;
 
     apprenants.forEach(a => {
-        html += `
+        htmlTable += `
             <tr>
                 <td>${a.nom}</td>
                 <td>${a.prenom}</td>
@@ -52,11 +55,22 @@ function afficherListe(apprenants) {
         `;
     });
 
-    html += "</tbody></table>";
-    container.innerHTML = html;
+    htmlTable += "</tbody></table>";
+
+    container.innerHTML = `
+        <div class="table-wrapper">
+            <div class="table-scroll">
+                ${htmlTable}
+            </div>
+        </div>
+    `;
 }
 
-// Fonction pour afficher les cartes des apprenants dans le HTML
+
+
+// ------------------------------
+// AFFICHAGE CARTES (GRID)
+// ------------------------------
 function afficherCartes(apprenants) {
     const container = document.getElementById("listeApprenants");
 
@@ -79,7 +93,10 @@ function afficherCartes(apprenants) {
     container.innerHTML = html;
 }
 
-// Écouteurs sur les radios pour changer d'affichage et mémoriser
+
+// ------------------------------
+// RADIOS : changement d'affichage
+// ------------------------------
 document.getElementById("rad-list").addEventListener("change", () => {
     localStorage.setItem("affichage", "liste");
     afficherListe(apprenantsGlobal);
@@ -90,7 +107,10 @@ document.getElementById("rad-grid").addEventListener("change", () => {
     afficherCartes(apprenantsGlobal);
 });
 
-// Fonction pour afficher le détail d'un apprenant dans une modal
+
+// ------------------------------
+// MODAL DETAIL
+// ------------------------------
 function afficherDetail(id) {
     const apprenant = apprenantsGlobal.find(a => a.id === id);
     if (!apprenant) return;
