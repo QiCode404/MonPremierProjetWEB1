@@ -185,4 +185,9 @@ table tr:hover {
     height: 50%;
     margin-top: 10vh;
     border: 2px solid var(--front-color);
+    border-radius: 2%;
+}
+
+.custom-theme-select {
+    width: 150px;
 }

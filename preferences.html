@@ -34,18 +34,18 @@
   <form>
     <h1>Préférences du site</h1>
     <section class="mb-4">
-        <h2>Thème du site</h2>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="theme" id="theme-clair" value="clair" checked>
-          <label class="form-check-label" for="theme-clair">Clair</label>
+        <div class="mb-3">
+          <h4>Thème du site</h4>
+            <label for="themeSelect" class="form-label"></label>
+            <select id="themeSelect" class="form-select form-select-sm custom-theme-select">
+                <option value="clair">Clair</option>
+                <option value="sombre">Sombre</option>
+            </select>
         </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="theme" id="theme-sombre" value="sombre">
-            <label class="form-check-label" for="theme-sombre">Sombre</label>
-        </div>
+
     </section>
     <section class="mb-4">
-        <h2>Format d'affichage</h2>
+        <h4>Format d'affichage</h4>
         <div class="form-check">
             <input class="form-check-input" type="radio" name="affichage" id="aff-liste" value="liste" checked>
             <label class="form-check-label" for="aff-liste">Liste</label>

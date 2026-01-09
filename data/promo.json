@@ -9,7 +9,7 @@
       "anecdotes": "Toujours avec un café à la main.",
       "coordonnees": {
         "latitude": "48.117266",
-        "longitude": "-1.6777926"
+        "longitude": "-1.677792"
       }
     },
     {
@@ -28,144 +28,144 @@
       "id": 3,
       "nom": "Leroy",
       "prenom": "Thomas",
-      "ville": "Niort",
+      "ville": "Bordeaux",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours le premier à aider les autres.",
       "coordonnees": {
-        "latitude": "46.323716",
-        "longitude": "-0.458771"
+        "latitude": "44.837789",
+        "longitude": "-0.579180"
       }
     },
     {
       "id": 4,
       "nom": "Moreau",
       "prenom": "Julie",
-      "ville": "Quimper",
+      "ville": "Lille",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Adore JavaScript.",
       "coordonnees": {
-        "latitude": "47.996090",
-        "longitude": "-4.102440"
+        "latitude": "50.629250",
+        "longitude": "3.057256"
       }
     },
     {
       "id": 5,
       "nom": "Roux",
       "prenom": "Antoine",
-      "ville": "Angers",
+      "ville": "Strasbourg",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Collectionne les sneakers.",
       "coordonnees": {
-        "latitude": "47.478419",
-        "longitude": "-0.563166"
+        "latitude": "48.573405",
+        "longitude": "7.752111"
       }
     },
     {
       "id": 6,
       "nom": "Fournier",
       "prenom": "Sarah",
-      "ville": "La Rochelle",
+      "ville": "Montpellier",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours souriante.",
       "coordonnees": {
-        "latitude": "46.160329",
-        "longitude": "-1.151139"
+        "latitude": "43.611242",
+        "longitude": "3.876733"
       }
     },
     {
       "id": 7,
       "nom": "Girard",
       "prenom": "Hugo",
-      "ville": "Rennes",
+      "ville": "Toulouse",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Passionné de cybersécurité.",
       "coordonnees": {
-        "latitude": "48.117266",
-        "longitude": "-1.6777926"
+        "latitude": "43.604652",
+        "longitude": "1.444209"
       }
     },
     {
       "id": 8,
       "nom": "Gauthier",
       "prenom": "Chloé",
-      "ville": "Nantes",
+      "ville": "Nice",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Grande fan de React.",
       "coordonnees": {
-        "latitude": "47.218371",
-        "longitude": "-1.553621"
+        "latitude": "43.710173",
+        "longitude": "7.261953"
       }
     },
     {
       "id": 9,
       "nom": "Chevalier",
       "prenom": "Maxime",
-      "ville": "Niort",
+      "ville": "Dijon",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours en avance.",
       "coordonnees": {
-        "latitude": "46.323716",
-        "longitude": "-0.458771"
+        "latitude": "47.322047",
+        "longitude": "5.041480"
       }
     },
     {
       "id": 10,
       "nom": "Lambert",
       "prenom": "Camille",
-      "ville": "Quimper",
+      "ville": "Tours",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Adore les puzzles.",
       "coordonnees": {
-        "latitude": "47.996090",
-        "longitude": "-4.102440"
+        "latitude": "47.394144",
+        "longitude": "0.684840"
       }
     },
     {
       "id": 11,
       "nom": "Bonnet",
       "prenom": "Alexandre",
-      "ville": "Angers",
+      "ville": "Clermont‑Ferrand",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours motivé.",
       "coordonnees": {
-        "latitude": "47.478419",
-        "longitude": "-0.563166"
+        "latitude": "45.777222",
+        "longitude": "3.087025"
       }
     },
     {
       "id": 12,
       "nom": "Francois",
       "prenom": "Léa",
-      "ville": "La Rochelle",
+      "ville": "Marseille",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Aime les jeux vidéo.",
       "coordonnees": {
-        "latitude": "46.160329",
-        "longitude": "-1.151139"
+        "latitude": "43.296482",
+        "longitude": "5.369780"
       }
     },
     {
       "id": 13,
       "nom": "Henry",
       "prenom": "Paul",
-      "ville": "Rennes",
+      "ville": "Paris",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours une blague à raconter.",
       "coordonnees": {
-        "latitude": "48.117266",
-        "longitude": "-1.6777926"
+        "latitude": "48.856614",
+        "longitude": "2.352221"
       }
     },
     {
       "id": 14,
       "nom": "Riviere",
       "prenom": "Manon",
-      "ville": "Nantes",
+      "ville": "Rouen",
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Passionnée de photographie.",
       "coordonnees": {
-        "latitude": "47.218371",
-        "longitude": "-1.553621"
+        "latitude": "49.443232",
+        "longitude": "1.099971"
       }
     },
     {
@@ -176,8 +176,8 @@
       "avatar": "Ressources-ProjetWEBJanvier/avatar.png",
       "anecdotes": "Toujours entrain de cuisiner et motivé.",
       "coordonnees": {
-        "latitude": "46.5196535",
-        "longitude": "6.6322734"
+        "latitude": "45.688087",
+        "longitude": "5.915550"
       }
     }
   ]
