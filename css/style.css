@@ -1,3 +1,31 @@
+/* ------------------------------ */
+/*        VARIABLES GLOBALES      */
+/* ------------------------------ */
+
+:root {
+    --front-color: #222;
+    --background-color: #f5f5f5;
+    --card-background: #ffffff;
+    --border-color: #ccc;
+    --table-even: #eeeeee;
+    --table-hover: #dcdcdc;
+    --header-color: #131b63;
+}
+
+/* Thème sombre */
+.dark {
+    --front-color: #eaeaea;
+    --background-color: #121212;
+    --card-background: #1f1f1f;
+    --border-color: #444;
+    --table-even: #2a2a2a;
+    --table-hover: #333;
+    --header-color: #000000;
+}
+
+/* ------------------------------ */
+/*             GLOBAL             */
+/* ------------------------------ */
 
 * {
     margin: 0;
@@ -7,15 +35,16 @@
 
 body {
     font-family: "Segoe UI", Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #222;
+    color: var(--front-color);
+    background-color: var(--background-color);
     min-height: 100vh;
 }
+
 fieldset {
     padding: 15px;
-    border: 2px solid #ccc;
+    border: 2px solid var(--border-color);
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: var(--card-background);
 }
 
 legend {
@@ -28,7 +57,7 @@ legend {
 /* ------------------------------ */
 
 header {
-    background-color: #131b63;
+    background-color: var(--header-color);
     color: white;
     padding: 15px 0;
     margin-bottom: 30px;
@@ -69,7 +98,7 @@ table {
 }
 
 table th {
-    background-color: #1e1e1e;
+    background-color: #1e1e1e; /* fixe */
     color: white;
     padding: 12px;
 }
@@ -80,11 +109,11 @@ table td {
 }
 
 table tr:nth-child(even) {
-    background-color: #eeeeee;
+    background-color: var(--table-even);
 }
 
 table tr:hover {
-    background-color: #dcdcdc;
+    background-color: var(--table-hover);
 }
 
 .table-wrapper {
@@ -94,30 +123,26 @@ table tr:hover {
     margin-bottom: 1%;
 }
 
-
 .table-scroll {
     max-height: 400px;
     overflow-y: auto;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 5px;
 }
-
-
-
-
 
 /* ------------------------------ */
 /*              CARTES            */
 /* ------------------------------ */
 
 .card-apprenant {
-    background: white;
+    background: var(--card-background);
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 6px rgba(24, 35, 86, 0.15);
     text-align: center;
     transition: 0.2s;
+    color: var(--front-color);
 }
 
 .card-apprenant:hover {
@@ -138,9 +163,9 @@ table tr:hover {
 
 .display-div {
     padding: 15px 20px;
-    border: 2px solid #ccc;
+    border: 2px solid var(--border-color);
     border-radius: 8px;
-    background-color: white;
+    background-color: var(--card-background);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -156,38 +181,8 @@ table tr:hover {
 /* ------------------------------ */
 
 #map {
-    width: 50vw;
-    height: 50vh;
+    width: 80%;
+    height: 50%;
     margin-top: 10vh;
     border: 2px solid var(--front-color);
-}
-
-/* ------------------------------ */
-/*           DARK MODE            */
-/* ------------------------------ */
-
-.dark body {
-    background-color: #121212;
-    color: #eaeaea;
-}
-
-.dark header {
-    background-color: #000;
-}
-
-.dark table tr:nth-child(even) {
-    background-color: #2a2a2a;
-}
-
-.dark table tr:hover {
-    background-color: #333;
-}
-
-.dark .card-apprenant {
-    background-color: #1f1f1f;
-    color: #eaeaea;
-}
-
-.dark #map {
-    border-color: #444;
 }

@@ -1,28 +1,34 @@
-// 1. Charger les préférences existantes
-document.addEventListener("DOMContentLoaded", () => {
-    const themeRadios = document.querySelectorAll('input[name="theme"]');
-    const affichageRadios = document.querySelectorAll('input[name="affichage"]');
-    const btnSave = document.getElementById("btnSave");
+import { applyTheme } from "./theme.js";
 
+applyTheme(); // applique le thème dès l’ouverture de la page
+
+// Initialisation de la page Préférences
+function initPreferences() {
+
+    // Récupération des valeurs stockées
     const theme = localStorage.getItem("theme") || "clair";
     const affichage = localStorage.getItem("affichage") || "liste";
 
-    themeRadios.forEach(r => {
-        r.checked = (r.value === theme);
-    });
+    // Sélection des radios
+    const themeRadio = document.querySelector(`input[name="theme"][value="${theme}"]`);
+    const affichageRadio = document.querySelector(`input[name="affichage"][value="${affichage}"]`);
 
-    affichageRadios.forEach(r => {
-        r.checked = (r.value === affichage);
-    });
-    // 2. Sauvegarder au clic sur Enregistrer
-    btnSave.addEventListener("click", () => {
+    if (themeRadio) themeRadio.checked = true;
+    if (affichageRadio) affichageRadio.checked = true;
+
+    // Bouton Enregistrer
+    document.getElementById("btnSave").addEventListener("click", () => {
+
         const selectedTheme = document.querySelector('input[name="theme"]:checked').value;
         const selectedAffichage = document.querySelector('input[name="affichage"]:checked').value;
 
+        // Sauvegarde
         localStorage.setItem("theme", selectedTheme);
         localStorage.setItem("affichage", selectedAffichage);
 
-        alert("Préférences enregistrées. Recharge la page pour voir le thème.");
+        // Application immédiate du thème
+        applyTheme();
     });
-});
+}
 
+initPreferences();
